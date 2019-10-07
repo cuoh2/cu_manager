@@ -121,6 +121,8 @@ USE_TZ = False   #TZ=TIME_ZONE
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static').replace('\\', '/'),
-)
+# STATICFILES_DIRS = (
+#     os.path.join(BASE_DIR, 'static').replace('\\', '/'),
+# )
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
