@@ -77,7 +77,7 @@ def add_host(request):
     username=request.COOKIES.get('name', '')
     if request.method == 'POST' and request.POST:
         host_ip=request.POST['ip']
-        if host_ip == '' or HostInfo.objects.filter(ip=host_ip):
+        if host_ip == '' or HostInfo.objects.filter(ip=host_ip,is_delete=False):
             error = '该ip已存在，请重新输入'
             return render(request, 'add_host.html', locals())
         nickname=request.POST['nickname']
