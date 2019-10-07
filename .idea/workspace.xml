@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fad379cc-0057-47b7-bce4-d828874073cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cu_manager/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cu_manager/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cu_manager/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/cu_manager/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,7 +54,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manager/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="738">
@@ -62,6 +62,27 @@
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cu_manager/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#226#235#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cu_manager/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -129,16 +150,17 @@
         <option value="$PROJECT_DIR$/showdata/models.py" />
         <option value="$PROJECT_DIR$/showdata/views.py" />
         <option value="$PROJECT_DIR$/sendData.py" />
-        <option value="$PROJECT_DIR$/cu_manager/settings.py" />
         <option value="$PROJECT_DIR$/manager/views.py" />
         <option value="$PROJECT_DIR$/manager/urls.py" />
         <option value="$PROJECT_DIR$/cu_manager/urls.py" />
+        <option value="$PROJECT_DIR$/cu_manager/wsgi.py" />
+        <option value="$PROJECT_DIR$/cu_manager/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="267" />
-    <option name="y" value="95" />
+    <option name="x" value="321" />
+    <option name="y" value="46" />
     <option name="width" value="966" />
     <option name="height" value="632" />
   </component>
@@ -213,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django server.cu_manager">
+  <component name="RunManager" selected="Python.sendData">
     <configuration name="debug" type="PythonConfigurationType" factoryName="Python">
       <module name="cu_manager" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -306,7 +328,7 @@
       <workItem from="1569982377039" duration="20749000" />
       <workItem from="1570019421628" duration="8473000" />
       <workItem from="1570161393619" duration="10540000" />
-      <workItem from="1570410224776" duration="13213000" />
+      <workItem from="1570410224776" duration="15672000" />
     </task>
     <task id="LOCAL-00001" summary="update debug_mode">
       <created>1570427737540</created>
@@ -329,11 +351,18 @@
       <option name="project" value="LOCAL" />
       <updated>1570432527392</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update url rule">
+      <created>1570437806007</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570437806010</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52975000" />
+    <option name="totallyTimeSpent" value="55434000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -345,14 +374,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="267" y="95" width="966" height="632" extended-state="0" />
+    <frame x="321" y="46" width="966" height="632" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25386313" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25386313" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2985972" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21843687" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33551556" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -378,7 +408,8 @@
     <MESSAGE value="update debug_mode" />
     <MESSAGE value="update host" />
     <MESSAGE value="change add host rules" />
-    <option name="LAST_COMMIT_MESSAGE" value="change add host rules" />
+    <MESSAGE value="update url rule" />
+    <option name="LAST_COMMIT_MESSAGE" value="update url rule" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -403,7 +434,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/cu_manager$debug.coverage" NAME="debug Coverage Results" MODIFIED="1570019984190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/cu_manager$sendData.coverage" NAME="sendData Coverage Results" MODIFIED="1570412343362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cu_manager$sendData.coverage" NAME="sendData Coverage Results" MODIFIED="1570444904989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/cu_manager$cu_manager.coverage" NAME="debug Coverage Results" MODIFIED="1570018407303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
@@ -612,13 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cu_manager/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-140" />
@@ -669,15 +693,6 @@
           <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cu_manager/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#226#235#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -775,6 +790,23 @@
           <folding>
             <element signature="e#0#54#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cu_manager/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#226#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cu_manager/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
         </state>
       </provider>
     </entry>
