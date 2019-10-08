@@ -17,4 +17,3 @@ while True:
     response=requests.post(url=url, data=data, headers=headers)
     print(response.text)
     time.sleep(1)
-

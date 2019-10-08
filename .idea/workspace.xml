@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="fad379cc-0057-47b7-bce4-d828874073cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/imgs/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/imgs/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sendData.py" beforeDir="false" afterPath="$PROJECT_DIR$/sendData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/remote_cmd.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/remote_cmd.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,9 +56,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/showdata/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-124">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/show_data.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manager/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
+            <state relative-caret-position="-574">
               <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
@@ -68,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sendData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="234">
+              <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -77,11 +100,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pipfile">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/remote_cmd.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="110">
+              <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://73ade4e1-96b7-44a5-a394-5e2d0b5d673e/schema/main/table/showdata_cpudata">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="73349ecc-3227-4e69-a7b4-7475a31e1bdf">
+              <filtering>
+                <filter text="" />
+              </filtering>
             </state>
           </provider>
         </entry>
@@ -119,33 +153,9 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/imgs/logo.png">
           <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manager/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cu_manager/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-              <folding>
-                <element signature="e#634#666#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -179,25 +189,26 @@
         <option value="$PROJECT_DIR$/remoteCMD/remote.py" />
         <option value="$PROJECT_DIR$/templates/show_data.html" />
         <option value="$PROJECT_DIR$/templates/file_trans.html" />
-        <option value="$PROJECT_DIR$/templates/remote_cmd.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/hostlist.html" />
         <option value="$PROJECT_DIR$/templates/add_host.html" />
         <option value="$PROJECT_DIR$/showdata/models.py" />
         <option value="$PROJECT_DIR$/showdata/views.py" />
-        <option value="$PROJECT_DIR$/sendData.py" />
         <option value="$PROJECT_DIR$/manager/views.py" />
         <option value="$PROJECT_DIR$/manager/urls.py" />
         <option value="$PROJECT_DIR$/cu_manager/urls.py" />
         <option value="$PROJECT_DIR$/cu_manager/wsgi.py" />
         <option value="$PROJECT_DIR$/cu_manager/settings.py" />
+        <option value="$PROJECT_DIR$/scripts.py" />
+        <option value="$PROJECT_DIR$/sendData.py" />
+        <option value="$PROJECT_DIR$/templates/remote_cmd.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="264" />
-    <option name="y" value="20" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="311" />
+    <option name="y" value="50" />
     <option name="width" value="966" />
     <option name="height" value="632" />
   </component>
@@ -217,23 +228,12 @@
             <path>
               <item name="cu_manager" type="b2602c69:ProjectViewProjectNode" />
               <item name="cu_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="cu_manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cu_manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cu_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cu_manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cu_manager" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cu_manager" type="b2602c69:ProjectViewProjectNode" />
               <item name="cu_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="imgs" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,7 +263,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django server.cu_manager">
+  <component name="RunManager" selected="Python.sendData">
     <configuration name="debug" type="PythonConfigurationType" factoryName="Python">
       <module name="cu_manager" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -356,7 +356,7 @@
       <workItem from="1569982377039" duration="20749000" />
       <workItem from="1570019421628" duration="8473000" />
       <workItem from="1570161393619" duration="10540000" />
-      <workItem from="1570410224776" duration="27042000" />
+      <workItem from="1570410224776" duration="30699000" />
     </task>
     <task id="LOCAL-00001" summary="update debug_mode">
       <created>1570427737540</created>
@@ -400,11 +400,18 @@
       <option name="project" value="LOCAL" />
       <updated>1570526547728</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="logo">
+      <created>1570546176250</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1570546176259</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66804000" />
+    <option name="totallyTimeSpent" value="70461000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -416,15 +423,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="166" y="54" width="966" height="632" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25386313" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17397882" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33266532" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3846154" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33551556" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -432,15 +439,15 @@
       <window_info anchor="bottom" id="Database Console" order="7" weight="0.32843137" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.4028056" />
-      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32843137" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.26052105" />
+      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32733223" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3797054" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32843137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32781458" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32753405" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,37 +459,15 @@
     <MESSAGE value="change add host rules" />
     <MESSAGE value="update url rule" />
     <MESSAGE value="update hosts" />
-    <option name="LAST_COMMIT_MESSAGE" value="update hosts" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/showdata/views.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/showdata/views.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="logo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/cu_manager$debug.coverage" NAME="debug Coverage Results" MODIFIED="1570019984190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/cu_manager$sendData.coverage" NAME="sendData Coverage Results" MODIFIED="1570444904989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cu_manager$sendData.coverage" NAME="sendData Coverage Results" MODIFIED="1570551923272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/cu_manager$cu_manager.coverage" NAME="debug Coverage Results" MODIFIED="1570018407303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/73ade4e1-96b7-44a5-a394-5e2d0b5d673e/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -524,13 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/remote_cmd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -563,13 +541,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/remoteCMD/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/show_data.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/cu_manager-UEnFXz06/Lib/site-packages/django/conf/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -641,16 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/showdata/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manager/admin.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -664,15 +625,6 @@
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-140" />
-      </provider>
-    </entry>
-    <entry file="das://73ade4e1-96b7-44a5-a394-5e2d0b5d673e/schema/main/table/showdata_cpudata">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="73349ecc-3227-4e69-a7b4-7475a31e1bdf">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
       </provider>
     </entry>
     <entry file="das://73ade4e1-96b7-44a5-a394-5e2d0b5d673e/schema/main/table/manager_userinfo">
@@ -798,26 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sendData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cu_manager/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -835,6 +767,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/imgs/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="das://73ade4e1-96b7-44a5-a394-5e2d0b5d673e/schema/main/table/showdata_cpudata">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="73349ecc-3227-4e69-a7b4-7475a31e1bdf">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-574">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/showdata/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/show_data.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/manager/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -845,8 +816,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/imgs/logo.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/scripts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sendData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/remote_cmd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
